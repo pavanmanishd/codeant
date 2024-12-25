@@ -261,7 +261,7 @@ export default function Home() {
             {repositories.map((repo) => (
               <div
                 key={repo.id}
-                className="flex flex-col p-4 border border-b-[1px] gap-2"
+                className="flex flex-col p-4 border border-b-[1px] gap-2 hover:bg-[#F7F8F9]"
               >
                 <div className="flex flex-row items-center gap-4 justify-start">
                   <p>{repo.reponame}</p>
