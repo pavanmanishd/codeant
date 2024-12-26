@@ -32,7 +32,7 @@ const mainMenuItems = [
 
 const bottomMenuItems = [
   { icon: Phone, label: "Support", href: "#" },
-  { icon: LogOut, label: "Logout", href: "/auth" },
+  { icon: LogOut, label: "Logout", href: "/" },
 ];
 
 export function SidebarNav() {
