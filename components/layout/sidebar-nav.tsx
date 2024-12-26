@@ -48,7 +48,7 @@ export function SidebarNav() {
             value={selectedDropdownOption}
             onValueChange={(value) => setSelectedDropdownOption(value)}
           >
-            <SelectTrigger className="w-[200px] flex items-center justify-between px-4 py-2 rounded-md text-gray-800 hover:bg-gray-50 border">
+            <SelectTrigger className="w-[100%] flex items-center justify-between px-4 py-2 rounded-md text-gray-800 hover:bg-gray-50 border">
               <SelectValue placeholder="UtkarshDhairyaPan">
                 {selectedDropdownOption}
               </SelectValue>
@@ -84,7 +84,7 @@ export function SidebarNav() {
             key={item.label}
             href={item.href}
             onClick={() => setSelectedItem(item.label)}
-            className={`flex items-center space-x-2 w-[200px] px-4 py-2 rounded-md ${
+            className={`flex items-center space-x-2 w-[100%] px-4 py-2 rounded-md ${
               selectedItem === item.label
                 ? "bg-blue-500 text-white"
                 : "text-gray-700 font-semibold hover:bg-gray-50"
@@ -101,7 +101,7 @@ export function SidebarNav() {
               key={item.label}
               href={item.href}
               onClick={() => setSelectedItem(item.label)}
-              className={`flex items-center space-x-2 w-[200px] px-4 py-2 rounded-md ${
+              className={`flex items-center space-x-2 w-[100%] px-4 py-2 rounded-md ${
                 selectedItem === item.label
                   ? "bg-blue-500 text-white"
                   : "text-gray-700 font-semibold hover:bg-gray-50"
@@ -120,7 +120,7 @@ export function SidebarNav() {
             key={item.label}
             href={item.href}
             onClick={() => setSelectedItem(item.label)}
-            className={`flex items-center space-x-2 w-[200px] px-4 py-2 rounded-md ${
+            className={`flex items-center space-x-2 w-[100%] px-4 py-2 rounded-md ${
               selectedItem === item.label
                 ? "bg-blue-500 text-white"
                 : "text-gray-700 font-semibold hover:bg-gray-50"
