@@ -1,8 +1,8 @@
 # CodeAntAI Demo
 
 ## 🌐 Live Demo  
-- **Dashboard Page**: [https://codeant-qpqz.onrender.com/dashboard](https://codeant-qpqz.onrender.com/dashboard)  
-- **Auth Page**: [https://codeant-qpqz.onrender.com/](https://codeant-qpqz.onrender.com/)  
+- **Dashboard Page**: [https://codeant-opal.vercel.app/dashboard](https://codeant-opal.vercel.app/dashboard)  
+- **Auth Page**: [https://codeant-opal.vercel.app/](https://codeant-opal.vercel.app/)  
 
 ---
 
